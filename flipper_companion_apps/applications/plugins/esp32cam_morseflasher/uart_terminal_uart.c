@@ -62,7 +62,7 @@ UART_TerminalUart* uart_terminal_uart_init(UART_TerminalApp* app) {
     
     /*furi_hal_console_disable();
     if(app->BAUDRATE == 0) {
-        app->BAUDRATE = 230400;
+        app->BAUDRATE = 115200;
     }
     furi_hal_uart_set_br(UART_CH, app->BAUDRATE);
     furi_hal_uart_set_irq_cb(UART_CH, uart_terminal_uart_on_irq_cb, uart);*/

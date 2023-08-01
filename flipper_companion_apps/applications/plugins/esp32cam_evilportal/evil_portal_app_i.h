@@ -15,7 +15,7 @@
 
 #define EVIL_PORTAL_TEXT_BOX_STORE_SIZE (4096)
 #define UART_CH (FuriHalUartIdUSART1)
-#define BAUDRATE (230400)
+#define BAUDRATE (115200)
 
 #define SET_HTML_CMD "sethtml"
 #define SET_AP_CMD "setap"

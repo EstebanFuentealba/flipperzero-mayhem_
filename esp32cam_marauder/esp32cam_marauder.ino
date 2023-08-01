@@ -136,7 +136,7 @@ void setup()
 
   WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0); //disable brownout detector
 
-  Serial.begin(230400);
+  Serial.begin(115200);
 
   unsigned long waitForStreamMode = millis() + 3000;
 

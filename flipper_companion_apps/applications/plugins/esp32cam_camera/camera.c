@@ -252,7 +252,7 @@ static UartEchoApp* camera_app_alloc() {
 
     // Enable uart listener
     furi_hal_console_disable();
-    furi_hal_uart_set_br(FuriHalUartIdUSART1, 230400);
+    furi_hal_uart_set_br(FuriHalUartIdUSART1, 115200);
     furi_hal_uart_set_irq_cb(FuriHalUartIdUSART1, camera_on_irq_cb, app);
 
     furi_hal_power_disable_external_3_3v();

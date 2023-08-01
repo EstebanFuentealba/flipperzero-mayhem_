@@ -3,7 +3,7 @@
 
 #define UART_CH (FuriHalUartIdUSART1)
 #define LP_UART_CH (FuriHalUartIdLPUART1)
-#define BAUDRATE (230400)
+#define BAUDRATE (115200)
 
 struct WifiMarauderUart {
     WifiMarauderApp* app;
